@@ -1,0 +1,5 @@
+id,lat,lon,duration_min,skills,priority,urgent,due
+SAP-40001,38.437,27.148,35,elektrik,90,true,
+SAP-40002,38.451,27.183,45,bakim,70,false,2026-11-17T10:00:00+03:00
+SAP-40003,38.464,27.21,25,elektrik,50,false,
+SAP-40004,38.418,27.129,60,yuksek-gerilim,80,false,

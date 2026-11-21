@@ -1,0 +1,87 @@
+{
+  "depot": {
+    "lat": 38.4237,
+    "lon": 27.1428
+  },
+  "now": "2026-11-17T08:00:00+03:00",
+  "resources": [
+    {
+      "id": "EKIP-01",
+      "shift": {
+        "start": "2026-11-17T08:00:00+03:00",
+        "end": "2026-11-17T17:00:00+03:00"
+      },
+      "skills": [
+        "elektrik",
+        "bakim"
+      ]
+    },
+    {
+      "id": "EKIP-02",
+      "shift": {
+        "start": "2026-11-17T09:00:00+03:00",
+        "end": "2026-11-17T17:00:00+03:00"
+      },
+      "skills": [
+        "elektrik"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "SAP-40001",
+      "location": {
+        "lat": 38.437,
+        "lon": 27.148
+      },
+      "duration_min": 35,
+      "skills": [
+        "elektrik"
+      ],
+      "priority": 90,
+      "urgent": true
+    },
+    {
+      "id": "SAP-40002",
+      "location": {
+        "lat": 38.451,
+        "lon": 27.183
+      },
+      "duration_min": 45,
+      "skills": [
+        "bakim"
+      ],
+      "priority": 70,
+      "due": "2026-11-17T10:00:00+03:00"
+    },
+    {
+      "id": "SAP-40003",
+      "location": {
+        "lat": 38.464,
+        "lon": 27.21
+      },
+      "duration_min": 25,
+      "skills": [
+        "elektrik"
+      ],
+      "priority": 50
+    },
+    {
+      "id": "SAP-40004",
+      "location": {
+        "lat": 38.418,
+        "lon": 27.129
+      },
+      "duration_min": 60,
+      "skills": [
+        "yuksek-gerilim"
+      ],
+      "priority": 80
+    }
+  ],
+  "options": {
+    "time_limit_s": 10,
+    "max_overtime_min": 0
+  },
+  "policy": "generic@1.0.0"
+}
